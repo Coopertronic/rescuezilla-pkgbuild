@@ -7,21 +7,24 @@ Recommends: `partimage, ecryptfs-utils, nbdkit, python3-whichcraft`
 
 Depends not found:
 
-nfs-common	=>	nfs-utils
+```
+nfs-common      =>  nfs-utils
+libnotify-bin   =>  libnotify
+plzip           =>  AUR
+archivemount    =>  AUR
+nbd-server      =>  nbd
+nbd-client      =>  libnbd
+python3-babel   =>  python-babel
+qemu-utils      =>  qemu-tools
+bsdmainutils    =>  AUR
+```
 
-libnotify-bin	=>	libnotify
+Recommends not found:
 
-plzip	=>	AUR
+```
+nbdkit              =>  AUR
+python3-whichcraft  =>  python-magic 
+```
 
-archivemount	=>	AUR
-
-nbd-server	=>	nbd
-
-nbd-client	=>	libnbd
-
-python3-babel	=>	python-babel
-
-qemu-utils	=>	qemu-tools
-
-bsdmainutils	=>	AUR
+The ultimate test is the PKGBUILD and see if it builds.
 
